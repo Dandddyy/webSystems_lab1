@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/products")
 public class Controller {
+    //Added for new git branch
 
     @GetMapping("/{productId}")
     public ResponseEntity<Product> getProduct(@PathVariable("productId") int productId) {
